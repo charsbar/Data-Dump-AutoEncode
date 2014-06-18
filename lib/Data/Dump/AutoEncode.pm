@@ -3,6 +3,7 @@ package Data::Dump::AutoEncode;
 use strict;
 use warnings;
 use Carp;
+use Data::Dump;
 use Encode;
 use Term::Encoding;
 use parent 'Exporter';
